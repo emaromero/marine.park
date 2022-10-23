@@ -34,7 +34,7 @@ h4 {
 h1 {
   font-size: 2rem;
   line-height: 3rem;
-  letter-spacing: 12px;
+  letter-spacing: 10px;
   text-transform: uppercase;
   padding-bottom: 8px;
 }
@@ -72,13 +72,9 @@ footer p {
   transition: all 0.4s ease-in-out;
 }
 
-.btn:focus {
-  background: #e44c65;
-  border-color: transparent;
-}
 
 .btn-success {
-  background: #e44c65;
+  background: #364b72;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -468,11 +464,12 @@ footer {
 }
 
 #titlepic{
+  margin-top: 10px;
     font-size: 1.5rem;
     line-height: 2rem;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-transform: uppercase;
-    padding-bottom: 8px;
+    padding-bottom: 0px;
   }
 
 #gallery .gallery-thumb {
@@ -634,4 +631,8 @@ footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+}
+ .logofooter{
+  margin-top: 30px;
+  padding-top: 20px;
 }
