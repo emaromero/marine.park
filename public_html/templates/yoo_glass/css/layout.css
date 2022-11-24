@@ -1,0 +1,87 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.wrapper { padding: 0 10px; }
+
+#header { margin: 10px 10px 5px 10px;-webkit-box-shadow: 4px 4px 11px 0px rgba(36,40,87,1);
+
+-moz-box-shadow: 4px 4px 11px 0px rgba(36,40,87,1);
+
+box-shadow: 4px 4px 11px 0px rgba(36,40,87,1); border-radius: 6px 6px 6px 6px;
+
+-moz-border-radius: 6px 6px 6px 6px;
+
+-webkit-border-radius: 6px 6px 6px 6px;
+
+border: 0px solid #000000;background: rgba(212,228,239,1);
+background: rgba(17,105,153,1);
+background: -moz-linear-gradient(top, rgba(17,105,153,1) 0%, rgba(42,125,176,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(17,105,153,1)), color-stop(100%, rgba(42,125,176,1)));
+background: -webkit-linear-gradient(top, rgba(17,105,153,1) 0%, rgba(42,125,176,1) 100%);
+background: -o-linear-gradient(top, rgba(17,105,153,1) 0%, rgba(42,125,176,1) 100%);
+background: -ms-linear-gradient(top, rgba(17,105,153,1) 0%, rgba(42,125,176,1) 100%);
+background: linear-gradient(to bottom, rgba(17,105,153,1) 0%, rgba(42,125,176,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#116999', endColorstr='#2a7db0', GradientType=0 );}
+
+#toolbar { margin-bottom: 15px; }
+
+#menu,
+#search { margin: 25px 0; }
+
+#content,
+.module { margin: 10px; }
+
+#breadcrumbs,
+#footer { margin: 20px; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+/* Header */
+#menu { float: right; margin-top: 45px; }
+
+/* Section Border Style */
+.top-a-line #top-a,
+.bottom-b-line #bottom-b {
+	position: relative; 
+	margin-top: 70px; 
+}
+
+.top-a-line #top-a:before,
+.bottom-b-line #bottom-b:before { 
+	content: "";
+	position: absolute;
+	display: block;
+	top: -35px;
+	left: 10px;
+	right: 10px;
+	border-bottom: solid 1px #fff;
+}
+
+/* Footer + Toolbar */
+#footer,
+#toolbar {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* ToTop Scroller */
+#totop-scroller {
+	display: block;
+	position: relative;
+	margin: 0 auto 20px;
+	width: 32px;
+	height: 32px;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+#totop-scroller:hover { background-position: 50% -50px; }
